@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class Target : MonoBehaviour
 {
-    [SerializeField] private Transform[] _waypoints;
-    [SerializeField] private float _speed;
+    [SerializeField] private Transform[] Waypoints;
+    [SerializeField] private float Speed;
 
-    private int _currentWaypoint = 0;
+    private int CurrentWaypoint = 0;
 
     private void Update()
     {
@@ -14,9 +14,9 @@ public class Target : MonoBehaviour
 
     private void Move()
     {
-        if (transform.position == _waypoints[_currentWaypoint].position)
-            _currentWaypoint = (_currentWaypoint + 1) % _waypoints.Length;
+        if (transform.position == Waypoints[CurrentWaypoint].position)
+            CurrentWaypoint = (CurrentWaypoint + 1) % Waypoints.Length;
 
-        transform.position = Vector3.MoveTowards(transform.position, _waypoints[_currentWaypoint].position, _speed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, Waypoints[CurrentWaypoint].position, Speed * Time.deltaTime);
     }
 }
