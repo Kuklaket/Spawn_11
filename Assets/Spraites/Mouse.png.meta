@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 056a73c97a96f1c45b40d3873b34236a
+guid: 05230c19871900e4faba246a9e511086
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,7 +102,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -114,7 +114,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WhiteCatRun_0
+      name: Mouse_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 169
-        width: 16
-        height: 13
+        x: 102
+        y: 295
+        width: 268
+        height: 163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9888574db98d2564ba473af8fc604cbf
-      internalID: 788522198
+      spriteID: 01061c9bff7db46419cae0f30e19196f
+      internalID: 56793642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WhiteCatRun_1
+      name: Mouse_1
       rect:
         serializedVersion: 2
-        x: 7
-        y: 139
-        width: 16
-        height: 12
+        x: 606
+        y: 295
+        width: 292
+        height: 131
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 611d6c2f9d072a64087d7b235b3fbc1b
-      internalID: 600504938
+      spriteID: a413233b206de4a48bc1e575435f9a15
+      internalID: -1320988372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WhiteCatRun_2
+      name: Mouse_2
       rect:
         serializedVersion: 2
-        x: 7
-        y: 107
-        width: 16
-        height: 12
+        x: 1126
+        y: 295
+        width: 299
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b6e7dc8cf7e1e34ab315eb446054664
-      internalID: -1469311682
+      spriteID: df6a345bdc8ed1b42b7ad148b1e1ef9e
+      internalID: -1802718811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WhiteCatRun_3
+      name: Mouse_3
       rect:
         serializedVersion: 2
-        x: 7
-        y: 73
-        width: 16
-        height: 13
+        x: 1670
+        y: 295
+        width: 284
+        height: 147
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c81e811dc9db5764187e8f087ac1a865
-      internalID: -1990662358
+      spriteID: 297a0caf7b8a7524db7af08b5d8724bf
+      internalID: 1837604577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WhiteCatRun_4
+      name: Mouse_4
       rect:
         serializedVersion: 2
-        x: 7
-        y: 41
-        width: 16
-        height: 12
+        x: 2230
+        y: 295
+        width: 252
+        height: 187
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55eea06561bb65c49982565b554fd379
-      internalID: 1639441743
+      spriteID: a8d2c34877a77d94b8c70f60e549a9aa
+      internalID: -86527508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WhiteCatRun_5
+      name: Mouse_5
       rect:
         serializedVersion: 2
-        x: 7
-        y: 9
-        width: 16
-        height: 12
+        x: 2767
+        y: 295
+        width: 242
+        height: 187
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,8 +248,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5b9cce53d153b34993aba95f8bb95bb
-      internalID: -615443442
+      spriteID: 1d889e47ddce5ef429fcaaade713b5e6
+      internalID: 2049727572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 38
+        width: 268
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021a67c9b28c06e4e88e7aa75fcd68dd
+      internalID: -1115150728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_7
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 38
+        width: 338
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21eeba7a002ffdb469c86b2ed08f9211
+      internalID: -1120070423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_8
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 38
+        width: 340
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572e9541b8be7ee4d9271bf74287fddd
+      internalID: 1250062791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_9
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 38
+        width: 316
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e6bb87c7e42f841aec9b3973e4c512
+      internalID: -1126476256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_10
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 38
+        width: 316
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab56fd325dd2bfd45a033f43a7c9361b
+      internalID: -946496580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_11
+      rect:
+        serializedVersion: 2
+        x: 2686
+        y: 38
+        width: 340
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1095988e9c7165a49b0404a7246af8f5
+      internalID: -310661717
       vertices: []
       indices: 
       edges: []
@@ -265,12 +391,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WhiteCatRun_0: 788522198
-      WhiteCatRun_1: 600504938
-      WhiteCatRun_2: -1469311682
-      WhiteCatRun_3: -1990662358
-      WhiteCatRun_4: 1639441743
-      WhiteCatRun_5: -615443442
+      Mouse_0: 56793642
+      Mouse_1: -1320988372
+      Mouse_10: -946496580
+      Mouse_11: -310661717
+      Mouse_2: -1802718811
+      Mouse_3: 1837604577
+      Mouse_4: -86527508
+      Mouse_5: 2049727572
+      Mouse_6: -1115150728
+      Mouse_7: -1120070423
+      Mouse_8: 1250062791
+      Mouse_9: -1126476256
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

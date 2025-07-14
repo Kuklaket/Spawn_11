@@ -251,7 +251,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1a45016cf205c440b9718ae1ee68ab9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemy: {fileID: 6074086636332242699, guid: b735e9c468efd6745aaa2f0e1ad8ef5e, type: 3}
+  _enemyPrefab: {fileID: 6074086636332242699, guid: b735e9c468efd6745aaa2f0e1ad8ef5e, type: 3}
+  _defaultCapacity: 3
+  _maxPoolSize: 3
 --- !u!4 &152151228
 Transform:
   m_ObjectHideFlags: 0
@@ -334,6 +336,10 @@ PrefabInstance:
     - target: {fileID: 2698443368604663970, guid: 0a466329dfae2f546a886bcdcb9237e9, type: 3}
       propertyPath: m_Name
       value: SpawnPoint (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3437121081811581869, guid: 0a466329dfae2f546a886bcdcb9237e9, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8161320717205670333, guid: 0a466329dfae2f546a886bcdcb9237e9, type: 3}
@@ -485,6 +491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnPoint (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3437121081811581869, guid: 0a466329dfae2f546a886bcdcb9237e9, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8161320717205670333, guid: 0a466329dfae2f546a886bcdcb9237e9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0a466329dfae2f546a886bcdcb9237e9, type: 3}
@@ -551,6 +561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnPoint (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3437121081811581869, guid: 0a466329dfae2f546a886bcdcb9237e9, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8161320717205670333, guid: 0a466329dfae2f546a886bcdcb9237e9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0a466329dfae2f546a886bcdcb9237e9, type: 3}
@@ -616,6 +630,10 @@ PrefabInstance:
     - target: {fileID: 2698443368604663970, guid: 0a466329dfae2f546a886bcdcb9237e9, type: 3}
       propertyPath: m_Name
       value: SpawnPoint (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3437121081811581869, guid: 0a466329dfae2f546a886bcdcb9237e9, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8161320717205670333, guid: 0a466329dfae2f546a886bcdcb9237e9, type: 3}
@@ -695,7 +713,7 @@ PrefabInstance:
       objectReference: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 3437121081811581869, guid: 0a466329dfae2f546a886bcdcb9237e9, type: 3}
       propertyPath: m_Color.a
-      value: 0.9490196
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3437121081811581869, guid: 0a466329dfae2f546a886bcdcb9237e9, type: 3}
       propertyPath: m_WasSpriteAssigned

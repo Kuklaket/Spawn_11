@@ -2,13 +2,13 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-public class EnemyCat : MonoBehaviour
+public class EnemyCat_11 : MonoBehaviour
 {
     private Vector2 _vectorMove;   
     private int _speed = 1;
     private Coroutine _liveCoroutine;
 
-    public event Action<EnemyCat> ReadyForReleased;
+    public event Action<EnemyCat_11> ReadyForReleased;
 
     private void OnEnable()
     {

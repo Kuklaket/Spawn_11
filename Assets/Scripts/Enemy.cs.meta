@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/Enemy.cs.meta
+guid: 370e48aef467e614c89464b9dc828698
+========
+guid: 46b055f6deec1e94f9482ed49b3dabe5
+>>>>>>>> 2d949eb7bb5cb17db1051c1338beb4f9dd2ea0fa:Assets/Scripts/Bird.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

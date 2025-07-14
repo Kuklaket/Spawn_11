@@ -2,13 +2,14 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-public class EnemyCat : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
-    private Vector2 _vectorMove;   
-    private int _speed = 1;
-    private Coroutine _liveCoroutine;
+    protected float Speed = 1;
 
-    public event Action<EnemyCat> ReadyForReleased;
+    private Coroutine _liveCoroutine;
+    private Transform _target;
+
+    public event Action<Enemy> ReadyForReleased;
 
     private void OnEnable()
     {
@@ -26,17 +27,19 @@ public class EnemyCat : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(_vectorMove.normalized * _speed * Time.deltaTime);
+        Vector2 direction = (_target.position - transform.position).normalized;
+
+        transform.Translate(direction * Speed * Time.deltaTime);
     }
 
-    public void SetDirection(Vector2 direction)
+    public void SetTarget(Transform target)
     {
-        _vectorMove = direction;
+        _target = target;
     }
 
     private IEnumerator StartLive()
     {
-        int liveLenght = 5;
+        int liveLenght = 3;
 
         yield return new WaitForSeconds(liveLenght);
         ReadyForReleased?.Invoke(this);
